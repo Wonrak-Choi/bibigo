@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>몽블랑 시안</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <style>
+        #tbg{
+            background-color: #b4b4b4 !important;
+            background-image: url(./images/slide_back_img.png);
+            background-repeat: no-repeat;
+        }
+        
+        body{
+            width: 1920px;
+            width: 100%;
+        }
+        #wrap{
+            margin: 0 auto;
+        }
+        header{
+            margin: 0 auto;
+            width: 1280px;
+            color: #fff;
+        }
+        header::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        header h1{
+            float: left;
+        }
+        header h2{
+            margin: 10px 0;
+            padding: 20px 10px;
+            float: right;
+            }
+        header nav {
+            float: right;
+            margin-right: 60px;
+        }
+        header ul::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        header nav ul li{
+            font-size: 14px;
+            margin: 10px;
+            float: left;
+            padding: 30px 10px;
+        }
+        section{
+            width: 1280px;
+            margin: 0 auto;
+        } 
+
+        .top h3{
+            color:#fff;
+            font-size: 72px;
+            font-weight: bold;
+            margin-top: 200px;
+            line-height: 84px;
+            margin-left: 40px;
+        }
+        .top p{
+            color: #909090;
+            font-size: 14px;
+            margin: 20px;
+            margin-left: 40px;
+            line-height: 20px;
+        }
+        .top a{
+            margin: 20px;
+            margin-left: 40px;
+        }
+        .box1{
+            margin: 50px 30px 0 0 ;
+        }
+        .box2{
+            margin: 50px 30px 0 0 ;
+        }
+        .box3{
+            margin: 50px 0 0 0 ;
+        }
+        #cardBox article::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #cardBox article{
+            color: #909090;
+            font-size: 14px;
+        }
+        #cardBox article h4{
+            margin: 108px 10px 110px 10px;
+            float: left;
+        }
+        #cardBox article h4 span{
+            color: black;
+        }
+        #cardBox article p{
+            margin: 108px 10px 110px 10px;
+            font-weight: 700;
+            float: right;
+        }
+        .arrow{
+            margin: 110px 10px 110px 10px;
+            float: right;
+        }
+        #about{
+            font-size: 16px;
+            text-align: center;
+            line-height: 36px;
+            margin: 50px auto;
+        }
+        #about p{
+            margin-bottom: 60px;
+        }
+        #about img{
+            margin-bottom: 60px;
+        }
+        #mov{
+            width: 100%;
+            margin: 0;
+            /* 포지션 위치기준값 */
+            position: relative;
+        }
+        .back{
+            width: 1920px;
+            width: 100%;
+        }
+        .clip{
+            /* 포지션 */
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 1;
+            transform: translateX(-50%);
+        }
+        #why{
+            margin-top: 400px;
+            margin-bottom: 100px;
+        }
+        .faq{
+            background-color: #dcdcdc;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 70px;
+            padding-bottom: 120px;
+        }
+        .banner{
+            text-align: center;
+            background-color: #ffcc33;
+        }
+        #black{
+            padding-top: 110px;
+            background-color: #000000;
+        }
+        #bottom::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #bottom{
+            border-bottom: #dcdcdc solid 1px;
+            width: 1280px;
+            margin: 0 auto;
+            color: #b2b2b2;
+        }
+        .logo p{
+            line-height: 24px;
+            margin-top: 15px;
+        }
+        .logo img{
+            padding-top: 44px;
+            padding-right: 20px;
+        }
+        #bottom article h2{
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 28px;
+        }
+        #bottom article nav ul li{
+            font-size: 14px;
+            margin-bottom: 12px;
+            font-weight: normal;
+        }
+        #bottom article{
+            float: right;
+            margin-left: 180px;
+        }
+        #bottom .logo{
+            margin: 0;
+            padding-bottom: 50px;
+            float: left;
+        }
+        footer{
+            font-size: 14px;
+            padding: 110px;
+            background-color: #000000;
+            text-align: center;
+            color: #dcdcdc;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div id="warp">
+        <div id="tbg">
+        <header>
+            <h1><a href="#"><img src="./images/logo.png" alt="로고"></a></h1>
+            <h2><a href="#"><img src="./images/btn_search.png" alt="검색"></a></h2>
+            <nav>
+                <ul>
+                    <li><a href="#">WOMAN</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">CHILDREN</a></li>
+                    <li><a href="#">JEWELRY</a></li>
+                    <li><a href="#">BEUTY</a></li>
+                    <li><a href="#">DECOR</a></li>
+                    <li><a href="#">GIFTS</a></li>
+                    <li><a href="#">STORIES</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main role="main">
+            <section class="top">
+                <h3>Father's Day Gifts <br>Le Petit Prince</h3>
+                <p>
+                    Receive a complimentary Explorer Travel Set with your 
+                    pucgase of $400 or more.<br>
+                    Browse the collection.
+                </p>
+                <a href="#"><img src="./images/shop_now.jpg" alt="버튼"><a >
+            </section>
+            <section id="cardBox">
+                <img class="box1" src="./images/card_box01.jpg" alt="박스1">
+                <img class="box2" src="./images/card_box02.jpg" alt="박스2">
+                <img class="box3" src="./images/card_box03.jpg" alt="박스3">
+                <article>
+                    <h4>Please call our concierge on <span>1-800-995-4810</span></h4>
+                    <img class="arrow" src="./images/arrow_silver.png" alt="화살표">
+                    <p>VIEW ALL SERVICE</p>
+                </article>
+            </div>
+            </section>
+            <section id="about">
+                <p>
+                    OIN MONTBLANC  Create an account save details for faster shopping 
+                    Manage your order history and wish listOIN MONTBLANC create an<br>
+                    account Save details for faster shopping Manage your order history
+                     and wish list OIN MONTBLANC Create an account Save details f<br>
+                     or faster shopping Manage your order history and wish listOIN
+                      MONTBLANC create an account save details for faster shopping
+                </p>
+                <img src="./images/aboutus.jpg" alt="aboutus">
+            </section>
+            <section id="mov">
+                <img class="back" src="./images/mov_back.jpg" alt="back">
+                <img class="clip" src="./images/mov_clip.jpg" alt="클립">
+            </section>
+            <section id="why">
+                <img src="./images/why.jpg" alt="why">
+            </section>
+            <article class="faq">
+                <img src="./images/faq.jpg" alt="faq">
+            </article>
+            <article class="banner">
+                <img src="./images/banner.jpg" alt="배너">
+            </article>
+            <div id="black">
+                <div id="bottom">
+                <article class="logo">
+                    <img src="./images/footer_logo.png" alt="f로고">
+                    <p>
+                        ave s for faster shopping Manage your order his<br>
+                        Create an account Save details for faster shopping<br>
+                        history and wish list OIN MONTBLANC Create anr
+                    </p>
+                    <img src="./images/sns_facebook.png" alt="페이스북">
+                    <img src="./images/sns_twitter.png" alt="트위터">
+                    <img src="./images/sns_insta.png" alt="인스타">
+                    <img src="./images/sns_naver.png" alt="네이버">
+                </article>
+                <article>
+                    <h2>About</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Career</a></li>
+                        </ul>
+                    </nav>
+                </article>
+                <article>
+                    <h2>Assistance</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Repair Request</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Watch Care</a></li>
+                            <li><a href="#">Leather Care</a></li>
+                            <li><a href="#">Jewellery Care</a></li>
+                        </ul>
+                    </nav>
+                </article>
+                <article>
+                    <h2>Services</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Personal shopping</a></li>
+                            <li><a href="#">Engraving & Embossing</a></li>
+                            <li><a href="#">Gift wrapping</a></li>
+                            <li><a href="#">Shipping & Delivery</a></li>
+                            <li><a href="#">Retirms & Giarantee</a></li>
+                            <li><a href="#">click & Collect</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy 2021 Montblanc</p>
+    </footer>
+    </div>
+</body>
+</html>
